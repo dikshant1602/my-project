@@ -3,7 +3,7 @@
 
     let steps = [
         {
-            name: "Smoljames Store",
+            name: "Dikshant Store",
             icon: "fa-solid fa-cart-shopping",
             description:
                 "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
@@ -13,6 +13,12 @@
             icon: "fa-solid fa-list-check",
             description:
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+        },
+        {
+            name: "Pokédex",
+            icon: "fa-solid fa-diagram-project",
+            description:
+                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
         },
         {
             name: "Pokédex",
@@ -40,6 +46,127 @@
                 "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
         },
     ];
+
+    let skills = [
+        {
+            name: "HTML",
+            icon: "fa-brands fa-html5",
+            description:
+                "Proficient in HTML5 for structuring and presenting content on the web.",
+        },
+        {
+            name: "CSS",
+            icon: "fa-brands fa-css3-alt",
+            description:
+                "Skilled in CSS3 for styling and layout of web pages, including responsive design.",
+        },
+        {
+            name: "JavaScript",
+            icon: "fa-brands fa-js",
+            description:
+                "Experienced in JavaScript for adding interactivity and functionality to web applications.",
+        },
+        {
+            name: "MERN Stack",
+            icon: "fa-brands fa-react",
+            description:
+                "Full-stack development using MongoDB, Express.js, React, and Node.js.",
+        },
+        {
+            name: "Content Writing",
+            icon: "fa-solid fa-pen-nib",
+            description:
+                "Creating engaging and informative content for various platforms.",
+        },
+        {
+            name: "Copywriting",
+            icon: "fa-solid fa-pencil",
+            description:
+                "Crafting persuasive copy for marketing and advertising purposes.",
+        },
+        {
+            name: "Excel",
+            icon: "fa-solid fa-table",
+            description:
+                "Advanced skills in Microsoft Excel for data analysis, formulas, and dashboards.",
+        },
+        {
+            name: "Power BI",
+            icon: "fa-solid fa-chart-pie",
+            description:
+                "Proficient in Power BI for data visualization and business intelligence reporting.",
+        },
+        {
+            name: "SQL",
+            icon: "fa-solid fa-database",
+            description:
+                "Experienced in SQL for querying and managing relational databases.",
+        },
+        {
+            name: "Digital Marketing",
+            icon: "fa-solid fa-bullhorn",
+            description:
+                "Knowledgeable in digital marketing strategies, SEO, social media, and analytics.",
+        },
+    ];
+
+    let certifications = [
+        {
+            name: "Google Data Analytics Certificate",
+            icon: "fa-solid fa-chart-bar",
+            description:
+                "Completed the Google Data Analytics Professional Certificate, covering data cleaning, analysis, and visualization using tools like SQL, Excel, and Tableau.",
+        },
+        {
+            name: "Microsoft Certified: Azure Fundamentals",
+            icon: "fa-solid fa-cloud",
+            description:
+                "Earned certification in Azure cloud services, understanding core concepts of cloud computing.",
+        },
+        {
+            name: "HubSpot Content Marketing Certification",
+            icon: "fa-solid fa-pen",
+            description:
+                "Certified in content marketing strategies, SEO, and creating valuable content.",
+        },
+        {
+            name: "freeCodeCamp Full Stack Development",
+            icon: "fa-solid fa-code",
+            description:
+                "Completed certifications in Responsive Web Design, JavaScript Algorithms, Front End Libraries, Data Visualization, APIs and Microservices, and more.",
+        },
+    ];
+
+    let testimonials = [
+        {
+            name: "John Doe",
+            icon: "fa-solid fa-quote-left",
+            description:
+                "Dikshant is an excellent developer who delivered our project on time with great quality. His problem-solving skills are impressive!",
+            image: "https://pravatar.cc/150?img=1"
+        },
+        {
+            name: "Jane Smith",
+            icon: "fa-solid fa-quote-left",
+            description:
+                "Working with Dikshant was a pleasure; his communication skills are top-notch and he always goes the extra mile.",
+            image: "https://pravatar.cc/150?img=2"
+        },
+        {
+            name: "Alex Johnson",
+            icon: "fa-solid fa-quote-left",
+            description:
+                "The insights from the data analysis Dikshant provided transformed our business decisions. Highly recommended!",
+            image: "https://pravatar.cc/150?img=3"
+        },
+        {
+            name: "Emily Davis",
+            icon: "fa-solid fa-quote-left",
+            description:
+                "Dikshant's copywriting and digital marketing expertise helped boost our online presence significantly.",
+            image: "https://pravatar.cc/150?img=4"
+        },
+    ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -51,27 +178,36 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Samuel</span> Oak
-                <br />Full Stack
-                <span class="poppins text-violet-400">Developer</span>
+                Hi! I'm <span class="poppins text-violet-400">Dikshant</span> Choudhary
+                <!-- <br />Full Stack
+                <span class="poppins text-violet-400">Developer</span> -->
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or Firebase/Firestore!
-            </p>
-            <button
+                  I’m a <span class="text-violet-400">self-taught software developer</span> passionate about 
+                  problem-solving, design, and technology. Experienced in full-stack 
+                  development with JavaScript, Node.js, and modern web technologies.
+              </p>
+
+              <p class="text-base sm:text-lg md:text-xl">
+                  Also a Data Analyst skilled in <span class="text-violet-400">Excel dashboards, SQL, and Power BI</span>, 
+                  turning data into actionable insights. Additionally experienced in 
+                  <span class="text-violet-400">copywriting, content writing, and digital marketing</span> 
+                  with a strong record of leadership and project success.
+              </p>
+            <a
+                href="/contact"
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
                 <div
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
+            </a>
         </div>
+        
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"images/profile.png"}
+                src={"images/profile.jpeg"}
                 alt="Zetane Engine"
                 class="object-cover z-[2] max-h-[70vh]"
             />
@@ -109,7 +245,7 @@
             <i class="fa-regular fa-circle-play" />
             <p>Watch the video</p>
         </a>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
                     Smoljames Store is a a merchanising store created with <strong
@@ -132,6 +268,18 @@
                 </p>
             </Step>
             <Step step={steps[2]}>
+                <p>
+                    The Pokédex is a <strong class="text-violet-400"
+                        >SvelteKit & TailwindCSS</strong
+                    >
+                    web application, hosted on
+                    <strong class="text-violet-400">Netlify</strong>, that
+                    consumes and caches the
+                    <strong class="text-violet-400">Pokémon API</strong>
+                    to display all Pokémon information. Gotta catch them all!
+                </p>
+            </Step>
+            <Step step={steps[3]}>
                 <p>
                     The Pokédex is a <strong class="text-violet-400"
                         >SvelteKit & TailwindCSS</strong
@@ -262,5 +410,53 @@
             <p>Scroll to see more &rarr;</p>
         </div>
         <p class="mx-auto">So why not invest?</p>
+    </section>
+    <section id="skills" class="py-20 lg:py-32 flex flex-col gap-24">
+        <div class="flex flex-col gap-2 text-center">
+            <h6 class="text-large sm:text-xl md:text-2xl">
+                My technical and professional expertise.
+            </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                My <span class="poppins text-violet-400">Skills</span>
+            </h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-12 lg:gap-10">
+            {#each skills as skill}
+                <Step step={skill} />
+            {/each}
+        </div>
+    </section>
+    <section id="certifications" class="py-20 lg:py-32 flex flex-col gap-24">
+        <div class="flex flex-col gap-2 text-center">
+            <h6 class="text-large sm:text-xl md:text-2xl">
+                Certified by the best.
+            </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                My <span class="poppins text-violet-400">Certifications</span>
+            </h3>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-10">
+            {#each certifications as cert}
+                <Step step={cert} />
+            {/each}
+        </div>
+    </section>
+    <section id="testimonials" class="py-20 lg:py-32 flex flex-col gap-24">
+        <div class="flex flex-col gap-2 text-center">
+            <h6 class="text-large sm:text-xl md:text-2xl">
+                What others say about me.
+            </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                <span class="poppins text-violet-400">Testimonials</span>
+            </h3>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-10">
+            {#each testimonials as test}
+                <Step step={test}>
+                    <img src={test.image} alt={test.name} class="w-16 h-16 rounded-full mx-auto mb-4" />
+                    <p class="italic">"{test.description}"</p>
+                </Step>
+            {/each}
+        </div>
     </section>
 </main>
