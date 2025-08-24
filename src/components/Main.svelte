@@ -207,7 +207,7 @@
         
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"images/profile.jpeg"}
+                src={"images/p.jpeg"}
                 alt="Zetane Engine"
                 class="object-cover z-[2] max-h-[70vh]"
             />
