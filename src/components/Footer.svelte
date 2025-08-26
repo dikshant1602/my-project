@@ -12,6 +12,12 @@
             <i class="fa-brands fa-linkedin-in"></i>
         </a>
 
+        <a href="https://wa.me/919461921220
+" target="_blank" aria-label="Whatsapp"
+           class="hover:text-violet-400 transition-all duration-300 hover:scale-110">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
         <a href="https://github.com/dikshant1602" target="_blank" aria-label="GitHub"
            class="hover:text-violet-400 transition-all duration-300 hover:scale-110">
             <i class="fa-brands fa-github"></i>

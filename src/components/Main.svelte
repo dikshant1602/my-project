@@ -114,36 +114,36 @@
     // --- CERTIFICATIONS ---
     let certifications = [
         {
-            name: "Google Data Analytics Professional Certificate",
-            icon: "fa-solid fa-chart-bar",
+            name: "Legacy JavaScript Algorithms and Data Structures",
+            icon: "fab fa-js-square",
             description:
-                "Completed the Google Data Analytics Professional Certificate, covering data cleaning, analysis, and visualization using tools like SQL, Excel, and Tableau.",
-            certificateImage: "/images/certs/google-data-analytics.png",
-            credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/your-id",
+                "Explored core JavaScript algorithms and data structures, from arrays and objects to stacks, queues, and recursion. Strengthened my problem-solving skills and built a solid foundation for writing clean, efficient code.",
+            certificateImage: "/images/fcc.png",
+            credentialUrl: "https://www.freecodecamp.org/certification/dikshant1620/javascript-algorithms-and-data-structures",
         },
         {
-            name: "Microsoft Azure Fundamentals",
-            icon: "fa-solid fa-cloud",
+            name: "Civil-Military Liaison Programme",
+            icon: "fas fa-person-rifle",
             description:
-                "Earned certification in Azure cloud services, understanding core concepts of cloud computing.",
-            certificateImage: "/images/certs/azure-fundamentals.png",
-            credentialUrl: "https://learn.microsoft.com/en-us/users/your-id/credentials/your-cert-id",
+                "Developed a secure weapon inventory system for efficient distribution and record maintenance, incorporating daily tracking and officer signatures for issuance.",
+            certificateImage: "/images/certificate1.jpeg",
+            credentialUrl: "/",
         },
         {
-            name: "Content Marketing Certification",
-            icon: "fa-solid fa-pen",
+            name: "iOS Mobile App Developement Training Programme",
+            icon: "fab fa-apple",
             description:
-                "Certified in content marketing strategies, SEO, and creating valuable content.",
-            certificateImage: "/images/certs/content-marketing.png",
-            credentialUrl: "https://www.hubspot.com/your-cert-link",
+                "Note-taking app built with SwiftUI and Firebase with real-time commenting and UI for students and teachers.",
+            certificateImage: "/images/iOS_certificate.jpeg",
+            credentialUrl: "/",
         },
         {
-            name: "freeCodeCamp Developer Certifications",
-            icon: "fa-solid fa-code",
+            name: "Social Media Marketing Internship",
+            icon: "fab fa-facebook-f",
             description:
-                "Completed certifications in Responsive Web Design, JavaScript Algorithms, Front End Libraries, Data Visualization, APIs and Microservices, and more.",
-            certificateImage: "/images/certs/freecodecamp.png",
-            credentialUrl: "https://www.freecodecamp.org/your-username",
+                "Completed a Social Media Marketing Internship where I gained hands-on experience in creating content, managing campaigns, and analyzing engagement to drive brand growth and online visibility.",
+            certificateImage: "/images/internship.jpeg",
+            credentialUrl: "/",
         },
     ];
 
@@ -306,20 +306,20 @@
                                 class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
                                 >Dedication</td
                             >
-                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-red-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                            <td><i class="fa-solid fa-xmark text-red-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-600 text-lg" /></td>
                         </tr>
                         <tr class="border-b border-solid border-slate-200">
                             <td
                                 class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
                                 >Critical Thought</td
                             >
-                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-red-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                            <td><i class="fa-solid fa-check text-green-600 text-lg" /></td>
                         </tr>
                         <tr class="border-b border-solid border-slate-200">
                             <td
@@ -328,8 +328,8 @@
                             >
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                            <td><i class="fa-solid fa-xmark text-red-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-600 text-lg" /></td>
                         </tr>
                          <tr class="border-b border-solid border-slate-200">
                             <td
@@ -337,9 +337,9 @@
                                 >Programming Ability</td
                             >
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-red-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                            <td><i class="fa-solid fa-check text-green-600 text-lg" /></td>
                         </tr>
                         <tr class="border-b border-solid border-slate-200">
                             <td
@@ -347,19 +347,19 @@
                                 >Persuasive Writing</td
                             >
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                            <td><i class="fa-solid fa-xmark text-red-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-600 text-lg" /></td>
                         </tr>
                         <tr>
                             <td
                                 class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
                                 >Design Knowledge</td
                             >
+                            <td><i class="fa-solid fa-xmark text-red-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
                             <td><i class="fa-solid fa-check text-slate-500" /></td>
-                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                            <td><i class="fa-solid fa-check text-green-600 text-lg" /></td>
                         </tr>
                     </tbody>
                 </table>
