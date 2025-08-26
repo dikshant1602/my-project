@@ -1,13 +1,14 @@
-<script>
+<script lang="ts">
     export let step;
+    export let className = ""; 
     let showModal = false;
 
     function toggleModal() {
         showModal = !showModal;
     }
 
-    // This allows closing the modal by pressing the Escape key.
-    function handleKeydown(event) {
+    // Add the type KeyboardEvent to the event parameter
+    function handleKeydown(event: KeyboardEvent) {
         if (event.key === 'Escape') {
             showModal = false;
         }
@@ -17,7 +18,7 @@
 <svelte:window on:keydown={handleKeydown}/>
 
 <div
-    class="p-4 sm:p-6 flex flex-col gap-4 rounded-lg border border-solid border-violet-900 text-center group duration-200 hover:border-violet-700 hover:-translate-y-2 bg-slate-950/30"
+    class={`p-4 sm:p-6 flex flex-col gap-4 rounded-lg border border-solid border-violet-900 text-center group duration-200 hover:border-violet-700 hover:-translate-y-2 bg-slate-950/30 ${className}`}
 >
     <div
         class="bg-slate-900 grid place-items-center px-4 text-5xl mx-auto duration-200 -mt-10 sm:-mt-12"

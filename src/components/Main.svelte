@@ -208,13 +208,13 @@
                   with a strong record of leadership and project success.
             </p>
             <a
-                href="#contact"
+                href="#footer"
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 w-fit"
             >
                 <div
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
-                <h4 class="relative z-10">Get in touch →</h4>
+                <h4 class="relative z-10">Get In Touch →</h4>
             </a>
         </div>
        
@@ -415,7 +415,9 @@
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
     {#each testimonials as test}
-      <Step step={test} class="p-6 flex flex-col items-center gap-4 rounded-xl bg-slate-900 shadow-lg">
+      <Step step={test} 
+      className="p-6 flex flex-col items-center gap-4 rounded-xl bg-slate-900 shadow-lg" 
+      >
         <svelte:fragment slot="image">
           <img 
             src={test.image} 

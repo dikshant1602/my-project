@@ -1,10 +1,11 @@
 <script>
     export let y;
+    export let innerHeight;
 
     export let tabs = [
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
-        { name: "Blog", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", target: "_blank" },
+        { name: "Blog", link: "https://medium.com/@dikshanthere2", target: "_blank" },
         { name: "Resume", link: "/images/Dikshant-resume.pdf", target: "_blank" }
     ];
 </script>
@@ -30,14 +31,15 @@
                 <p>{tab.name}</p>
             </a>
         {/each}
-
-        <button
-            class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
-        >
-            <div
-                class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-            />
-            <h4 class="relative z-9">Get in touch</h4>
-        </button>
-    </div>
+        <a href="https://wa.me/919461921220" target="_blank">
+    <button
+        class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950 flex items-center gap-2"
+    >
+        <div
+            class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+        ></div>
+        <h4 class="relative z-10">Hire Me</h4>
+        <i class="fa-solid fa-fire relative z-10 text-red-500"></i>
+    </button>
+</a>
 </header>

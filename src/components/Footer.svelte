@@ -1,4 +1,4 @@
-<footer
+<footer id="footer"
     class="py-16 sm:py-24 bg-gradient-to-b from-black via-slate-900 to-black border-t border-violet-950 flex flex-col gap-6 justify-center items-center text-center"
 >
     <p class="px-4 py-2 bg-white text-slate-950 font-medium rounded-lg">
