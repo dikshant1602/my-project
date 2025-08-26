@@ -3,47 +3,63 @@
 
     let steps = [
         {
-            name: "Dikshant Store",
-            icon: "fa-solid fa-cart-shopping",
+            name: "Weapon Inventory Management",
+            icon: "fa-solid fa-person-rifle",
             description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+                "Developed a secure weapon inventory system for efficient distribution and record maintenance, incorporating daily tracking and officer signatures for issuance.",
         },
         {
-            name: "Utlimate Todos",
-            icon: "fa-solid fa-list-check",
+            name: "Level-Up | Learning Management System",
+            icon: "fa-solid fa-graduation-cap",
             description:
-                "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+                "Built a web platform for course browsing, purchases, video lectures, quizzes, and progress tracking. Integrated React, Node.js, and MongoDB for a scalable and secure learning experience.",
         },
         {
-            name: "Pokédex",
-            icon: "fa-solid fa-diagram-project",
+            name: "Basic Chat Application",
+            icon: "fa-solid fa-comments",
             description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+                "Developed a real-time chat application with secure login and session management. Messages are stored efficiently using MySQL and work seamlessly across all major browsers. Built with a focus on security, performance, and clean cross-browser compatibility.",
         },
         {
-            name: "Pokédex",
-            icon: "fa-solid fa-diagram-project",
+            name: "Amazon Clone",
+            icon: "fa-brands fa-amazon",
             description:
-                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+                "A fully functional e-commerce clone built with HTML, CSS, and JavaScript. Features include product listings, add-to-cart, search, and a responsive UI. This project helped me dive deeper into JavaScript DOM manipulation, local storage, and dynamic rendering.",
+        },
+        {
+            name: "Power BI and Excel Dashboards",
+            icon: "fa-solid fa-file-excel",
+            description:
+                "Developed multiple dashboards to transform raw data into actionable insights. Used Excel (Pivot Tables, Power Query, advanced formulas) and Power BI (DAX, data modeling, interactive visuals) to create reports that highlight trends, KPIs, and business performance.",
         },
     ];
 
     let benefits = [
         {
             metric: "10x",
-            name: "a self taught developer",
+            name: "A self-taught developer",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem-solving that is involved in developing and engineering innovative new online experiences. Starting off with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
         },
         {
-            name: "a product design & UX finatic",
+            name: "A product design & UX fanatic",
             description:
                 "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
         },
         {
-            name: "an excellent communicator",
+            name: "An excellent communicator",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any workspace with any team.",
+        },
+        {
+            name: "A persuasive writer",
+            description:
+                "Skilled in crafting compelling narratives and persuasive content that engages audiences, drives action, and enhances marketing efforts. My writing focuses on clarity, impact, and audience resonance to achieve business goals.",
+        },
+        {
+            name: "An expert data visualizer",
+            description:
+                "Skilled in transforming raw data into meaningful insights using Power BI, Excel, and SQL. I specialize in creating interactive dashboards, reports, and visualizations that simplify complex datasets, highlight key trends, and support data-driven decision making.",
         },
     ];
 
@@ -71,6 +87,24 @@
             icon: "fa-brands fa-react",
             description:
                 "Full-stack development using MongoDB, Express.js, React, and Node.js.",
+        },
+        {
+            name: "Svelte",
+            icon: "fa-solid fa-code",
+            description:
+                "Proficient in Svelte for building efficient and reactive user interfaces.",
+        },
+        {
+            name: "Figma",
+            icon: "fa-brands fa-figma",
+            description:
+                "Experienced in Figma for UI/UX design and collaboration.",
+        },
+        {
+            name: "Framer",
+            icon: "fa-brands fa-framer",
+            description:
+                "Skilled in Framer for creating interactive prototypes and animations.",
         },
         {
             name: "Content Writing",
@@ -112,25 +146,25 @@
 
     let certifications = [
         {
-            name: "Google Data Analytics Certificate",
+            name: "Google Data Analytics Professional Certificate",
             icon: "fa-solid fa-chart-bar",
             description:
                 "Completed the Google Data Analytics Professional Certificate, covering data cleaning, analysis, and visualization using tools like SQL, Excel, and Tableau.",
         },
         {
-            name: "Microsoft Certified: Azure Fundamentals",
+            name: "Microsoft Azure Fundamentals",
             icon: "fa-solid fa-cloud",
             description:
                 "Earned certification in Azure cloud services, understanding core concepts of cloud computing.",
         },
         {
-            name: "HubSpot Content Marketing Certification",
+            name: "Content Marketing Certification",
             icon: "fa-solid fa-pen",
             description:
                 "Certified in content marketing strategies, SEO, and creating valuable content.",
         },
         {
-            name: "freeCodeCamp Full Stack Development",
+            name: "freeCodeCamp Developer Certifications",
             icon: "fa-solid fa-code",
             description:
                 "Completed certifications in Responsive Web Design, JavaScript Algorithms, Front End Libraries, Data Visualization, APIs and Microservices, and more.",
@@ -183,15 +217,15 @@
                 <span class="poppins text-violet-400">Developer</span> -->
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                  I’m a <span class="text-violet-400">self-taught software developer</span> passionate about 
-                  problem-solving, design, and technology. Experienced in full-stack 
+                  I’m a <span class="text-violet-400">self-taught software developer</span> passionate about
+                  problem-solving, design, and technology. Experienced in full-stack
                   development with JavaScript, Node.js, and modern web technologies.
               </p>
 
               <p class="text-base sm:text-lg md:text-xl">
-                  Also a Data Analyst skilled in <span class="text-violet-400">Excel dashboards, SQL, and Power BI</span>, 
-                  turning data into actionable insights. Additionally experienced in 
-                  <span class="text-violet-400">copywriting, content writing, and digital marketing</span> 
+                  Also a Data Analyst skilled in <span class="text-violet-400">Excel dashboards, SQL, and Power BI</span>,
+                  turning data into actionable insights. Additionally experienced in
+                  <span class="text-violet-400">copywriting, content writing, and digital marketing</span>
                   with a strong record of leadership and project success.
               </p>
             <a
@@ -201,14 +235,14 @@
                 <div
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
+                <h4 class="relative z-10">Get in touch &rarr;</h4>
             </a>
         </div>
-        
+       
         <div class="relative shadow-2xl grid place-items-center">
             <img
                 src={"images/p.jpeg"}
-                alt="Zetane Engine"
+                alt="Dikshant Choudhary"
                 class="object-cover z-[2] max-h-[70vh]"
             />
         </div>
@@ -245,53 +279,17 @@
             <i class="fa-regular fa-circle-play" />
             <p>Watch the video</p>
         </a>
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
-                <p>
-                    Smoljames Store is a a merchanising store created with <strong
-                        class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                    > Commerce.js is a product CMS and Stripe is used for all transaction
-                    handling.
-                </p>
-            </Step>
-            <Step step={steps[1]}>
-                <p>
-                    Ultimate Todos is a Full Stack <strong
-                        class="text-violet-400">Next.js</strong
-                    >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
-                    >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
-                    that allows a user to login, manage a tidy and efficacious todo
-                    list, and persist this information across devices.
-                </p>
-            </Step>
-            <Step step={steps[2]}>
-                <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
-                </p>
-            </Step>
-            <Step step={steps[3]}>
-                <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
-                </p>
-            </Step>
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-10">
+            <Step step={steps[0]} />
+            <Step step={steps[1]} />
+            <Step step={steps[2]} />
+            <Step step={steps[3]} />
+            <Step step={steps[4]} />
         </div>
+        <a href="https://github.com/dikshant1602" target="_blank" class="mx-auto mt-4 px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 hover:border-violet-700 duration-200">
+            <p class="mx-auto">Click here to see more of my projects</p>
+        </a>
+
     </section>
     <section
         id="about"
@@ -396,7 +394,27 @@
                     <tr class="border-t border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
+                            >Programming Ability</td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr class="border-t border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Persuasive Writing</td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr class="border-t border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Design Knowledge</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
@@ -458,5 +476,8 @@
                 </Step>
             {/each}
         </div>
+        <a href="https://github.com/dikshant1602" target="_blank" class="mx-auto mt-4 px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 hover:border-violet-700 duration-200">
+            <p class="mx-auto">Click here to see what my clients have to say</p>
+        </a>
     </section>
 </main>
