@@ -1,36 +1,50 @@
 <script>
     import Step from "./Step.svelte";
 
+    // --- PROJECTS ---
+    // Added a `githubUrl` to each project object
     let steps = [
         {
             name: "Weapon Inventory Management",
             icon: "fa-solid fa-person-rifle",
             description:
                 "Developed a secure weapon inventory system for efficient distribution and record maintenance, incorporating daily tracking and officer signatures for issuance.",
+            githubUrl: "https://github.com/dikshant1602/your-repo-name",
         },
         {
             name: "Level-Up | Learning Management System",
             icon: "fa-solid fa-graduation-cap",
             description:
                 "Built a web platform for course browsing, purchases, video lectures, quizzes, and progress tracking. Integrated React, Node.js, and MongoDB for a scalable and secure learning experience.",
+            githubUrl: "https://github.com/dikshant1602/your-repo-name",
         },
         {
             name: "Basic Chat Application",
             icon: "fa-solid fa-comments",
             description:
-                "Developed a real-time chat application with secure login and session management. Messages are stored efficiently using MySQL and work seamlessly across all major browsers. Built with a focus on security, performance, and clean cross-browser compatibility.",
+                "Developed a real-time chat application with secure login and session management. Messages are stored efficiently using MySQL and work seamlessly across all major browsers.",
+            githubUrl: "https://github.com/dikshant1602/your-repo-name",
         },
         {
             name: "Amazon Clone",
             icon: "fa-brands fa-amazon",
             description:
-                "A fully functional e-commerce clone built with HTML, CSS, and JavaScript. Features include product listings, add-to-cart, search, and a responsive UI. This project helped me dive deeper into JavaScript DOM manipulation, local storage, and dynamic rendering.",
+                "A fully functional e-commerce clone built with HTML, CSS, and JavaScript. Features include product listings, add-to-cart, search, and a responsive UI.",
+            githubUrl: "https://github.com/dikshant1602/your-repo-name",
+        },
+        {
+            name: "Gym Landing Page",
+            icon: "fas fa-dumbbell",
+            description:
+                "A modern and responsive gym landing page built with Svelte, designed to showcase fitness services with a sleek UI and smooth performance. Focused on speed, interactivity, and a clean user experience.",
+            githubUrl: "https://github.com/dikshant1602/your-repo-name", 
         },
         {
             name: "Power BI and Excel Dashboards",
             icon: "fa-solid fa-file-excel",
             description:
-                "Developed multiple dashboards to transform raw data into actionable insights. Used Excel (Pivot Tables, Power Query, advanced formulas) and Power BI (DAX, data modeling, interactive visuals) to create reports that highlight trends, KPIs, and business performance.",
+                "Developed multiple dashboards to transform raw data into actionable insights using Excel (Pivot Tables, Power Query) and Power BI (DAX, data modeling).",
+            githubUrl: "https://github.com/dikshant1602/your-repo-name",
         },
     ];
 
@@ -63,142 +77,109 @@
         },
     ];
 
+    // --- SKILLS ---
     let skills = [
         {
-            name: "HTML",
-            icon: "fa-brands fa-html5",
-            description:
-                "Proficient in HTML5 for structuring and presenting content on the web.",
-        },
-        {
-            name: "CSS",
-            icon: "fa-brands fa-css3-alt",
-            description:
-                "Skilled in CSS3 for styling and layout of web pages, including responsive design.",
-        },
-        {
-            name: "JavaScript",
-            icon: "fa-brands fa-js",
-            description:
-                "Experienced in JavaScript for adding interactivity and functionality to web applications.",
-        },
-        {
-            name: "MERN Stack",
-            icon: "fa-brands fa-react",
-            description:
-                "Full-stack development using MongoDB, Express.js, React, and Node.js.",
-        },
-        {
-            name: "Svelte",
+            name: "Frontend Development",
             icon: "fa-solid fa-code",
-            description:
-                "Proficient in Svelte for building efficient and reactive user interfaces.",
+            description: "Building beautiful and responsive user interfaces.",
+            details: ["HTML", "CSS", "JavaScript", "Svelte"],
         },
         {
-            name: "Figma",
-            icon: "fa-brands fa-figma",
-            description:
-                "Experienced in Figma for UI/UX design and collaboration.",
+            name: "Backend Development",
+            icon: "fa-solid fa-server",
+            description: "Developing robust and scalable server-side applications.",
+            details: ["MERN Stack (MongoDB, Express, React, Node.js)", "Python", "SQL"],
         },
         {
-            name: "Framer",
-            icon: "fa-brands fa-framer",
-            description:
-                "Skilled in Framer for creating interactive prototypes and animations.",
+            name: "Data Analysis",
+            icon: "fa-solid fa-chart-line",
+            description: "Transforming raw data into actionable business insights.",
+            details: ["Microsoft Excel", "Power BI", "SQL"],
         },
         {
-            name: "Content Writing",
-            icon: "fa-solid fa-pen-nib",
-            description:
-                "Creating engaging and informative content for various platforms.",
+            name: "Design",
+            icon: "fa-solid fa-palette",
+            description: "Creating intuitive and engaging user experiences.",
+            details: ["Figma (UI/UX Design)", "Framer (Prototyping)"],
         },
         {
-            name: "Copywriting",
-            icon: "fa-solid fa-pencil",
-            description:
-                "Crafting persuasive copy for marketing and advertising purposes.",
-        },
-        {
-            name: "Excel",
-            icon: "fa-solid fa-table",
-            description:
-                "Advanced skills in Microsoft Excel for data analysis, formulas, and dashboards.",
-        },
-        {
-            name: "Power BI",
-            icon: "fa-solid fa-chart-pie",
-            description:
-                "Proficient in Power BI for data visualization and business intelligence reporting.",
-        },
-        {
-            name: "SQL",
-            icon: "fa-solid fa-database",
-            description:
-                "Experienced in SQL for querying and managing relational databases.",
-        },
-        {
-            name: "Digital Marketing",
+            name: "Marketing & Content",
             icon: "fa-solid fa-bullhorn",
-            description:
-                "Knowledgeable in digital marketing strategies, SEO, social media, and analytics.",
+            description: "Crafting compelling content and driving online growth.",
+            details: ["Content Writing", "Copywriting", "Digital Marketing & SEO"],
         },
     ];
 
+    // --- CERTIFICATIONS ---
     let certifications = [
         {
             name: "Google Data Analytics Professional Certificate",
             icon: "fa-solid fa-chart-bar",
             description:
                 "Completed the Google Data Analytics Professional Certificate, covering data cleaning, analysis, and visualization using tools like SQL, Excel, and Tableau.",
+            certificateImage: "/images/certs/google-data-analytics.png",
+            credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/your-id",
         },
         {
             name: "Microsoft Azure Fundamentals",
             icon: "fa-solid fa-cloud",
             description:
                 "Earned certification in Azure cloud services, understanding core concepts of cloud computing.",
+            certificateImage: "/images/certs/azure-fundamentals.png",
+            credentialUrl: "https://learn.microsoft.com/en-us/users/your-id/credentials/your-cert-id",
         },
         {
             name: "Content Marketing Certification",
             icon: "fa-solid fa-pen",
             description:
                 "Certified in content marketing strategies, SEO, and creating valuable content.",
+            certificateImage: "/images/certs/content-marketing.png",
+            credentialUrl: "https://www.hubspot.com/your-cert-link",
         },
         {
             name: "freeCodeCamp Developer Certifications",
             icon: "fa-solid fa-code",
             description:
                 "Completed certifications in Responsive Web Design, JavaScript Algorithms, Front End Libraries, Data Visualization, APIs and Microservices, and more.",
+            certificateImage: "/images/certs/freecodecamp.png",
+            credentialUrl: "https://www.freecodecamp.org/your-username",
         },
     ];
 
+    // --- TESTIMONIALS ---
     let testimonials = [
         {
-            name: "John Doe",
+            name: "Dr. Mamta Rathore",
             icon: "fa-solid fa-quote-left",
             description:
-                "Dikshant is an excellent developer who delivered our project on time with great quality. His problem-solving skills are impressive!",
-            image: "https://pravatar.cc/150?img=1"
+                "I had the pleasure of working with Dikshant Chaudhary during his time at MLSU. Throughout our interactions, I was consistently impressed by his dedication, curiosity, and eagerness to learn.",
+            image: "https://media.licdn.com/dms/image/v2/D4E03AQHsR0zqRryXmw/profile-displayphoto-shrink_100_100/B4EZTKqW_rG0AU-/0/1738566892563?e=1759363200&v=beta&t=X21ac6BRIdNQn9xRusd1DEvKma_Zg65_dznXNcqvulY",
+            linkedinUrl: "https://www.linkedin.com/in/johndoe",
         },
         {
-            name: "Jane Smith",
+            name: "Charchit Mangal",
             icon: "fa-solid fa-quote-left",
             description:
                 "Working with Dikshant was a pleasure; his communication skills are top-notch and he always goes the extra mile.",
-            image: "https://pravatar.cc/150?img=2"
+            image: "https://media.licdn.com/dms/image/v2/D5603AQG6r_oQpqt_7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726934700311?e=1759363200&v=beta&t=4vtf0LDVVXTGH03qISW0o75hmwblFJEnNZErG0_VQls",
+            linkedinUrl: "https://www.linkedin.com/in/janesmith",
         },
         {
-            name: "Alex Johnson",
+            name: "Vansh Rawat",
             icon: "fa-solid fa-quote-left",
             description:
-                "The insights from the data analysis Dikshant provided transformed our business decisions. Highly recommended!",
-            image: "https://pravatar.cc/150?img=3"
+                "Worked with Dikshant on a data project and was consistently impressed by his technical skills and teamwork. He’s quick to grasp complex problems, writes clean code, and always brings valuable ideas to the table. A solid developer and a great person to work with!",
+            image: "https://media.licdn.com/dms/image/v2/D4E03AQFmDP-T171d5Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1715840035800?e=1759363200&v=beta&t=MMQgrd8qSeUNIV0QTnLj_aYc1Jb01CxiXYqeUMgUcHA",
+            linkedinUrl: "https://www.linkedin.com/in/alexjohnson",
         },
         {
-            name: "Emily Davis",
+            name: "Snehil Sinha",
             icon: "fa-solid fa-quote-left",
             description:
-                "Dikshant's copywriting and digital marketing expertise helped boost our online presence significantly.",
-            image: "https://pravatar.cc/150?img=4"
+                "I had the pleasure of working with Dikshant on a web development project, and he is an outstanding teammate. His technical skills, problem-solving mindset, and ability to collaborate made a big impact on our project’s success. highly recommended!",
+            image: "https://media.licdn.com/dms/image/v2/C4D03AQFwIwiasWLvoA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1659416668742?e=1759363200&v=beta&t=x8-oSq3qkE-oHZCbpu6gDpsCwADB0mY4VKehVV_IP14",
+            linkedinUrl: "https://www.linkedin.com/in/emilydavis",
         },
     ];
 </script>
@@ -213,56 +194,40 @@
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Dikshant</span> Choudhary
-                <!-- <br />Full Stack
-                <span class="poppins text-violet-400">Developer</span> -->
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                   I’m a <span class="text-violet-400">self-taught software developer</span> passionate about
                   problem-solving, design, and technology. Experienced in full-stack
                   development with JavaScript, Node.js, and modern web technologies.
-              </p>
+            </p>
 
-              <p class="text-base sm:text-lg md:text-xl">
+            <p class="text-base sm:text-lg md:text-xl">
                   Also a Data Analyst skilled in <span class="text-violet-400">Excel dashboards, SQL, and Power BI</span>,
                   turning data into actionable insights. Additionally experienced in
                   <span class="text-violet-400">copywriting, content writing, and digital marketing</span>
                   with a strong record of leadership and project success.
-              </p>
+            </p>
             <a
-                href="/contact"
-                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+                href="#contact"
+                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 w-fit"
             >
                 <div
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
-                <h4 class="relative z-10">Get in touch &rarr;</h4>
+                <h4 class="relative z-10">Get in touch →</h4>
             </a>
         </div>
        
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"images/p.jpeg"}
+                src={"/images/p.jpeg"}
                 alt="Dikshant Choudhary"
-                class="object-cover z-[2] max-h-[70vh]"
+                class="object-cover z-[2] max-h-[70vh] rounded-md"
             />
         </div>
-        <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
-            <div
-                class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
-            >
-                <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-violet-800 to-indigo-800 specialSpin"
-                />
-            </div>
-
-            <img
-                src={"images/zetane-engine.jpeg"}
-                alt="Zetane Engine"
-                class="w-full h-full object-cover z-[2]"
-            />
-        </div> -->
     </section>
-    <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
+
+    <section class="py-20 lg:py-32 flex flex-col gap-16" id="projects">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
                 A few of my creative endeavors.
@@ -271,31 +236,23 @@
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-        >
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>
-        </a>
-        <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-10">
-            <Step step={steps[0]} />
-            <Step step={steps[1]} />
-            <Step step={steps[2]} />
-            <Step step={steps[3]} />
-            <Step step={steps[4]} />
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-10">
+            {#each steps as step}
+                <Step {step} />
+            {/each}
         </div>
-        <a href="https://github.com/dikshant1602" target="_blank" class="mx-auto mt-4 px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 hover:border-violet-700 duration-200">
-            <p class="mx-auto">Click here to see more of my projects</p>
-        </a>
 
+        <a href="https://github.com/dikshant1602" target="_blank" rel="noopener noreferrer" class="mx-auto mt-4 px-6 py-3 rounded-md border border-solid border-white flex items-center gap-3 hover:border-violet-700 hover:bg-violet-900/20 duration-200">
+            <i class="fa-brands fa-github"></i>
+            <p>View More Projects on GitHub</p>
+        </a>
     </section>
+
     <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
-        <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
         <div
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
         >
@@ -306,130 +263,115 @@
                 A bit <span class="poppins text-violet-400">about</span> me.
             </h3>
         </div>
-        <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-            I am . . .
-        </p>
-        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+        
+        <div class="flex flex-col gap-16 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
-                <!-- <div class="flex flex-col gap-2 mx-auto">
-                    <div class="flex items-end gap-4">
-                        <p
-                            class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
-                        >
-                            {benefit.metric}
-                        </p>
-                        <p
-                            class="text-xl sm:text-2xl md:text-3xl capitalize pb-2"
-                        >
-                            {benefit.name}
-                        </p>
-                    </div>
-                    <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
-                <div class="flex gap-6 sm:gap-8">
-                    <p
-                        class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
-                    >
+                <div class="flex gap-6 sm:gap-8 items-start">
+                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-600 font-semibold">
                         0{index + 1}
                     </p>
-                    <div class="flex flex-col gap-6 sm:gap-8">
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                    <div class="flex flex-col gap-4">
+                        <h3 class="text-2xl sm:text-3xl md:text-4xl poppins font-semibold">
                             {benefit.name}
                         </h3>
-                        <p>{benefit.description}</p>
+                        <p class="text-slate-300">{benefit.description}</p>
                     </div>
                 </div>
             {/each}
         </div>
-        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
-        </h5>
-        <div
-            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
-        >
-            <table class="bg-white text-slate-700 rounded text-center">
-                <thead class={"border-b border-solid border-slate-200  "}>
-                    <tr class="">
-                        <th />
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
-                            >Me</th
-                        >
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Dedication</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Critical Thought</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr>
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Programming Ability</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Persuasive Writing</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Design Knowledge</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                </tbody>
-            </table>
+
+        <div class="flex flex-col gap-8 items-center">
+            <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+                The <span class="text-violet-400">Complete</span> Package
+            </h5>
+            <div
+                class="flex flex-col overflow-x-auto gap-10 max-w-[800px] mx-auto w-full"
+            >
+                <table class="bg-white text-slate-700 rounded text-center w-full">
+                    <thead class={"border-b border-solid border-slate-200"}>
+                        <tr>
+                            <th />
+                            <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
+                            <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
+                            <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
+                            <th
+                                class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
+                                >Me</th
+                            >
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-solid border-slate-200">
+                            <td
+                                class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
+                                >Dedication</td
+                            >
+                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                        </tr>
+                        <tr class="border-b border-solid border-slate-200">
+                            <td
+                                class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
+                                >Critical Thought</td
+                            >
+                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                        </tr>
+                        <tr class="border-b border-solid border-slate-200">
+                            <td
+                                class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
+                                >Interpersonal Skills</td
+                            >
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                        </tr>
+                         <tr class="border-b border-solid border-slate-200">
+                            <td
+                                class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
+                                >Programming Ability</td
+                            >
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                        </tr>
+                        <tr class="border-b border-solid border-slate-200">
+                            <td
+                                class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
+                                >Persuasive Writing</td
+                            >
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                        </tr>
+                        <tr>
+                            <td
+                                class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm text-left"
+                                >Design Knowledge</td
+                            >
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-slate-500" /></td>
+                            <td><i class="fa-solid fa-check text-green-500 text-lg" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mx-auto -mt-4 italic sm:hidden opacity-50">
+                <p>Scroll to see more →</p>
+            </div>
         </div>
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
-        <p class="mx-auto">So why not invest?</p>
+
     </section>
-    <section id="skills" class="py-20 lg:py-32 flex flex-col gap-24">
+    
+    <section id="skills" class="py-20 lg:py-32 flex flex-col gap-16">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
                 My technical and professional expertise.
@@ -438,13 +380,14 @@
                 My <span class="poppins text-violet-400">Skills</span>
             </h3>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-12 lg:gap-10">
             {#each skills as skill}
                 <Step step={skill} />
             {/each}
         </div>
     </section>
-    <section id="certifications" class="py-20 lg:py-32 flex flex-col gap-24">
+
+    <section id="certifications" class="py-20 lg:py-32 flex flex-col gap-16">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Certified by the best.
@@ -453,31 +396,39 @@
                 My <span class="poppins text-violet-400">Certifications</span>
             </h3>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-10">
             {#each certifications as cert}
                 <Step step={cert} />
             {/each}
         </div>
     </section>
-    <section id="testimonials" class="py-20 lg:py-32 flex flex-col gap-24">
-        <div class="flex flex-col gap-2 text-center">
-            <h6 class="text-large sm:text-xl md:text-2xl">
-                What others say about me.
-            </h6>
-            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                <span class="poppins text-violet-400">Testimonials</span>
-            </h3>
-        </div>
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-10">
-            {#each testimonials as test}
-                <Step step={test}>
-                    <img src={test.image} alt={test.name} class="w-16 h-16 rounded-full mx-auto mb-4" />
-                    <p class="italic">"{test.description}"</p>
-                </Step>
-            {/each}
-        </div>
-        <a href="https://github.com/dikshant1602" target="_blank" class="mx-auto mt-4 px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 hover:border-violet-700 duration-200">
-            <p class="mx-auto">Click here to see what my clients have to say</p>
+
+    <section id="testimonials" class="py-20 lg:py-32 flex flex-col gap-20">
+  <div class="flex flex-col gap-4 text-center mb-10">
+    <h6 class="text-large sm:text-xl md:text-2xl">
+      What others say about me.
+    </h6>
+    <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+      <span class="poppins text-violet-400">Testimonials</span>
+    </h3>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+    {#each testimonials as test}
+      <Step step={test} class="p-6 flex flex-col items-center gap-4 rounded-xl bg-slate-900 shadow-lg">
+        <svelte:fragment slot="image">
+          <img 
+            src={test.image} 
+            alt={test.name} 
+            class="w-20 h-20 rounded-full border-4 border-slate-900" 
+          />
+        </svelte:fragment>
+      </Step>
+    {/each}
+  </div>
+  <a href="https://github.com/dikshant1602" target="_blank" rel="noopener noreferrer" class="mx-auto mt-4 px-6 py-3 rounded-md border border-solid border-white flex items-center gap-3 hover:border-violet-700 hover:bg-violet-900/20 duration-200">
+            <i class="fa-brands fa-linkedin"></i>
+            <p>Read More Testimonials on linkedin</p>
         </a>
-    </section>
+</section>
 </main>
