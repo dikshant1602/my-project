@@ -155,7 +155,7 @@
             description:
                 "I had the pleasure of working with Dikshant Chaudhary during his time at MLSU. Throughout our interactions, I was consistently impressed by his dedication, curiosity, and eagerness to learn.",
             image: "https://media.licdn.com/dms/image/v2/D4E03AQHsR0zqRryXmw/profile-displayphoto-shrink_100_100/B4EZTKqW_rG0AU-/0/1738566892563?e=1759363200&v=beta&t=X21ac6BRIdNQn9xRusd1DEvKma_Zg65_dznXNcqvulY",
-            linkedinUrl: "https://www.linkedin.com/in/johndoe",
+            linkedinUrl: "https://www.linkedin.com/in/dikshanthere",
         },
         {
             name: "Charchit Mangal",
@@ -163,7 +163,7 @@
             description:
                 "Working with Dikshant was a pleasure; his communication skills are top-notch and he always goes the extra mile.",
             image: "https://media.licdn.com/dms/image/v2/D5603AQG6r_oQpqt_7g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726934700311?e=1759363200&v=beta&t=4vtf0LDVVXTGH03qISW0o75hmwblFJEnNZErG0_VQls",
-            linkedinUrl: "https://www.linkedin.com/in/janesmith",
+            linkedinUrl: "https://www.linkedin.com/in/dikshanthere",
         },
         {
             name: "Vansh Rawat",
@@ -171,7 +171,7 @@
             description:
                 "Worked with Dikshant on a data project and was consistently impressed by his technical skills and teamwork. He’s quick to grasp complex problems, writes clean code, and always brings valuable ideas to the table. A solid developer and a great person to work with!",
             image: "https://media.licdn.com/dms/image/v2/D4E03AQFmDP-T171d5Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1715840035800?e=1759363200&v=beta&t=MMQgrd8qSeUNIV0QTnLj_aYc1Jb01CxiXYqeUMgUcHA",
-            linkedinUrl: "https://www.linkedin.com/in/alexjohnson",
+            linkedinUrl: "https://www.linkedin.com/in/dikshanthere",
         },
         {
             name: "Snehil Sinha",
@@ -179,7 +179,7 @@
             description:
                 "I had the pleasure of working with Dikshant on a web development project, and he is an outstanding teammate. His technical skills, problem-solving mindset, and ability to collaborate made a big impact on our project’s success. highly recommended!",
             image: "https://media.licdn.com/dms/image/v2/C4D03AQFwIwiasWLvoA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1659416668742?e=1759363200&v=beta&t=x8-oSq3qkE-oHZCbpu6gDpsCwADB0mY4VKehVV_IP14",
-            linkedinUrl: "https://www.linkedin.com/in/emilydavis",
+            linkedinUrl: "https://www.linkedin.com/in/dikshanthere",
         },
     ];
 </script>
@@ -436,7 +436,7 @@
       </Step>
     {/each}
   </div>
-  <a href="https://github.com/dikshant1602" target="_blank" rel="noopener noreferrer" class="mx-auto mt-4 px-6 py-3 rounded-md border border-solid border-white flex items-center gap-3 hover:border-violet-700 hover:bg-violet-900/20 duration-200">
+  <a href="https://www.linkedin.com/in/dikshanthere" target="_blank" rel="noopener noreferrer" class="mx-auto mt-4 px-6 py-3 rounded-md border border-solid border-white flex items-center gap-3 hover:border-violet-700 hover:bg-violet-900/20 duration-200">
             <i class="fa-brands fa-linkedin"></i>
             <p>Read More Testimonials on linkedin</p>
         </a>
