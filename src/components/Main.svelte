@@ -234,7 +234,15 @@
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 Curious to <span class="poppins text-violet-400">see</span> my work?
-            </h3>
+            </h3><br><br><br>
+            <a
+            href="video/hire me.mp4"
+            target="_blank"
+            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
+        >
+            <i class="fa-regular fa-circle-play" />
+            <p>Watch the video</p>
+        </a>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-10">
@@ -274,13 +282,13 @@
                         <h3 class="text-2xl sm:text-3xl md:text-4xl poppins font-semibold">
                             {benefit.name}
                         </h3>
-                        <p class="text-slate-300">{benefit.description}</p>
+                        <p class="text-slate-300">{benefit.description}</p> <br>
                     </div>
                 </div>
             {/each}
         </div>
 
-        <div class="flex flex-col gap-8 items-center">
+        <div class="flex flex-col gap-10 items-center">
             <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
                 The <span class="text-violet-400">Complete</span> Package
             </h5>
@@ -367,11 +375,11 @@
             <div class="mx-auto -mt-4 italic sm:hidden opacity-50">
                 <p>Scroll to see more →</p>
             </div>
+            <p class="mx-auto">So why not invest?</p>
         </div>
-
     </section>
     
-    <section id="skills" class="py-20 lg:py-32 flex flex-col gap-16">
+    <section id="skills" class="py-20 lg:py-20 flex flex-col gap-16">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
                 My technical and professional expertise.
@@ -387,7 +395,7 @@
         </div>
     </section>
 
-    <section id="certifications" class="py-20 lg:py-32 flex flex-col gap-16">
+    <section id="certifications" class="py-20 lg:py-25 flex flex-col gap-16">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Certified by the best.
@@ -403,7 +411,7 @@
         </div>
     </section>
 
-    <section id="testimonials" class="py-20 lg:py-32 flex flex-col gap-20">
+    <section id="testimonials" class="py-20 lg:py-20 flex flex-col gap-20">
   <div class="flex flex-col gap-4 text-center mb-10">
     <h6 class="text-large sm:text-xl md:text-2xl">
       What others say about me.
