@@ -6,7 +6,7 @@
         { name: "Projects", link: "#projects" },
         { name: "About me", link: "#about" },
         { name: "Blog", link: "https://medium.com/@dikshanthere2", target: "_blank" },
-        { name: "Resume", link: "/images/Dikshant-resume.pdf", target: "_blank" }
+        { name: "Resume", link: "/images/dikshant-resume.pdf", target: "_blank" }
     ];
 </script>
 
