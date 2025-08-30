@@ -414,7 +414,7 @@
     <section id="testimonials" class="py-20 lg:py-20 flex flex-col gap-20">
   <div class="flex flex-col gap-4 text-center mb-10">
     <h6 class="text-large sm:text-xl md:text-2xl">
-      What others say about me.
+      What people who worked with me say
     </h6>
     <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
       <span class="poppins text-violet-400">Testimonials</span>
