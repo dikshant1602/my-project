@@ -20,4 +20,4 @@ It’s designed to showcase my skills, projects, certifications, and testimonial
 * **Deployment:** GitHub Pages / Vercel / Netlify (your choice)
 
 ## Link
-* www.dikshantchoudhary.vercel.app/
+* https://dikshantchoudhary.vercel.app/
